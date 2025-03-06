@@ -49,7 +49,7 @@ const AddProduct = () => {
         <div style={{ display: 'flex', justifyContent: 'space-between', padding: '20px' }}>
             <div style={{ flex: '1', marginRight: '10px', padding: '20px', border: '1px solid #ccc', borderRadius: '10px', boxShadow: '0 0 10px rgba(0,0,0,0.1)', textAlign: 'left' }}>
                 <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>Add New Product</h2>
-                <form style={formStyle} onChange={handleSubmit}>
+                <form style={formStyle} onSubmit={handleSubmit}>
                     <div style={inputStyle}>
                         <label>Product Name:</label>
                         <input
